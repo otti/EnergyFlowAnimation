@@ -338,9 +338,39 @@ document.SetBatteryStateOfCharge = function(value)
 
 }
 
-document.Animation = function(Power, x_dir, y_dir, invert, bubble_id, text_id, MaxPower) 
+document.Animation = function(Power, bubble, invert, MaxPower) 
 {
 	var DirStr = "";
+
+	switch(bubble)
+	{
+		case "Home":
+			x_dir     = true;
+			y_dir     = true;
+			bubble_id = "bubble_home_anim";
+			text_id   = "pwr_home";
+			break;
+		case "Battery":
+			x_dir     = false;
+			y_dir     = false;
+			bubble_id = "bubble_bat_anim";
+			text_id   = "pwr_bat";
+			break;
+		case "Solar":
+			x_dir     = true;
+			y_dir     = false;
+			bubble_id = "bubble_solar_anim";
+			text_id   = "pwr_solar";
+			break;
+		case "Grid":
+			x_dir     = false;
+			y_dir     = true;
+			bubble_id = "bubble_grid_anim";
+			text_id   = "pwr_grid";
+			break;
+		default:
+			return;
+	}
 	
 	if( MaxPower == 0 ) // div by zero
 		MaxPower = 10000; // 10 kW
