@@ -1,5 +1,7 @@
 # Energy flow animation
 
+![text](https://github.com/otti/EnergyFlowAnimation/blob/main/SRC/EnergyFlow.svg)
+
 This is an animated SVG which illustarates the energy flow of your PV system.  
 * The direction of the current flow is animated by some moving bubbles
 * The bubbles move faster at higher power
@@ -22,3 +24,4 @@ This is an animated SVG which illustarates the energy flow of your PV system.
    - bubble_id --> Use the values from the example
    - text_id --> Use the values from the example
    - MaxPower  --> The bubble will move faster with rising power values. The bubble will move with maximum speed if this value will be exceeded
+  
