@@ -13,8 +13,8 @@ This is an animated SVG which illustarates the energy flow of your PV system.
 - SetBatteryStateOfCharge(value) 
    - Value: Will set the state of charge text and will animate the battery symbol
 
-- Animation(Power, x_dir, y_dir, invert, bubble_id, text_id, MaxPower)
-   - Power: Power in Watt
+- Animation(Power, bubble, invert, MaxPower)
+   - Power: Power in Watt will be displayed in the circle
       - Positive values --> Bubble is moving positive
       - Negative values --> Bubble is moving negative
       - 0 --> Bubble is invisible
