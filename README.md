@@ -10,8 +10,9 @@ This is an animated SVG which illustarates the energy flow of your PV system.
 * The SVG and the HTML file have to be on the same server. This example will not run on your local PC!
 
 # Functions
-- SetBatteryStateOfCharge(value) 
-   - Value: Will set the state of charge text and will animate the battery symbol
+- SetBatteryStateOfCharge(value, nominal_energy) 
+   - value: In percent. Will set the state of charge text and will animate the battery symbol
+   - nominal_energy: Nominal storage capacity of the battery in kWh
 
 - Animation(Power, bubble, invert, MaxPower)
    - Power: Power in Watt will be displayed in the circle

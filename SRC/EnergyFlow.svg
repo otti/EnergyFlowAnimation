@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="500"
-   height="400"
-   viewBox="0 0 500 400"
+   width="501.15552"
+   height="401.36121"
+   viewBox="0 0 501.15552 401.36121"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    sodipodi:docname="EnergyFlow.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,12 +23,12 @@
      inkscape:pagecheckerboard="false"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="1.414741"
-     inkscape:cx="740.41821"
-     inkscape:cy="280.26331"
+     inkscape:zoom="4.0014918"
+     inkscape:cx="375.60992"
+     inkscape:cy="260.02802"
      inkscape:window-width="3840"
      inkscape:window-height="2081"
-     inkscape:window-x="-9"
+     inkscape:window-x="2391"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer5"
@@ -38,7 +38,9 @@
      fit-margin-bottom="0"
      units="px"
      width="576px"
-     scale-x="0.36458" />
+     scale-x="0.36458"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs2">
     <linearGradient
@@ -55,7 +57,7 @@
      id="layer9"
      inkscape:label="Line"
      style="display:inline"
-     transform="translate(-113.78826,-2.2944225)">
+     transform="translate(-112.69382,-1.200007)">
     <path
        style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 193.6702,321.17445 532.80854,82.585431"
@@ -70,7 +72,7 @@
      id="layer8"
      inkscape:label="BubbleHome"
      style="display:inline"
-     transform="translate(-113.78826,-2.2944225)">
+     transform="translate(-112.69382,-1.200007)">
     <ellipse
        style="fill:#e1e1e1;fill-opacity:1;stroke:#000000;stroke-width:0.799998;stroke-miterlimit:4;stroke-dasharray:none"
        id="path2555"
@@ -90,7 +92,7 @@
      id="layer10"
      inkscape:label="BubbleGrid"
      style="display:inline"
-     transform="translate(-113.78826,-2.2944225)">
+     transform="translate(-112.69382,-1.200007)">
     <ellipse
        style="fill:#e1e1e1;fill-opacity:1;stroke:#000000;stroke-width:0.799998;stroke-miterlimit:4;stroke-dasharray:none"
        id="path2555-3"
@@ -111,7 +113,7 @@
      id="layer12"
      inkscape:label="BubbleSolar"
      style="display:inline"
-     transform="translate(-113.78826,-2.2944225)">
+     transform="translate(-112.69382,-1.200007)">
     <ellipse
        style="display:inline;fill:#e1e1e1;fill-opacity:1;stroke:#000000;stroke-width:0.799998;stroke-miterlimit:4;stroke-dasharray:none"
        id="path2555-3-1-4"
@@ -131,18 +133,18 @@
      id="layer11"
      inkscape:label="BubbleBattery"
      style="display:inline"
-     transform="translate(-113.78826,-2.2944225)">
+     transform="translate(-112.69382,-1.200007)">
     <ellipse
        style="display:inline;fill:#e1e1e1;fill-opacity:1;stroke:#000000;stroke-width:0.799998;stroke-miterlimit:4;stroke-dasharray:none"
        id="path2555-3-1"
        cx="478.90842"
-       cy="282.52295"
+       cy="296.52295"
        rx="8.8634043"
        ry="8.8734646">
       <animateMotion
          id="bubble_bat_anim"
          dur="2.1s"
-         values="0,0; -60, -40"
+         values="0,-10; -60, -60"
          repeatCount="indefinite" />
     </ellipse>
   </g>
@@ -151,18 +153,18 @@
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline"
-     transform="translate(-114.27388,-172.54294)" />
+     transform="translate(-113.17944,-171.44852)" />
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Circle"
      style="display:inline"
-     transform="translate(-114.27388,-172.54294)" />
+     transform="translate(-113.17944,-171.44852)" />
   <g
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Grid"
-     transform="translate(-114.27388,-172.54294)"
+     transform="translate(-113.17944,-171.44852)"
      style="display:inline">
     <ellipse
        style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
@@ -192,7 +194,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Battery"
-     transform="translate(-114.27388,-172.54294)"
+     transform="translate(-113.17944,-171.44852)"
      style="display:inline">
     <ellipse
        style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
@@ -203,51 +205,72 @@
        ry="78.749229" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.0604px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="533.99609"
-       y="561.32355"
-       id="bat_state_text"
-       transform="scale(0.999433,1.0005673)"><tspan
-         sodipodi:role="line"
-         id="load_bat"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.0604px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="533.99609"
-         y="561.32355">100%</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.0848px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="533.49847"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.0848px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-dasharray:none"
+       x="535.49957"
        y="543.21613"
        id="text4765-3-3-3"
-       transform="scale(0.999433,1.0005673)"><tspan
+       transform="scale(0.99943301,1.0005673)"><tspan
          sodipodi:role="line"
          id="pwr_bat"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.0848px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="533.49847"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.0848px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.265;stroke-dasharray:none"
+         x="535.49957"
          y="543.21613">1234 W</tspan></text>
+    <rect
+       style="display:inline;fill:#000000;stroke:#ffffff;stroke-width:0.265;stroke-linecap:square;paint-order:markers stroke fill"
+       id="bat_state_rect"
+       width="75.471855"
+       height="48.481918"
+       x="492.28806"
+       y="461.09045"
+       ry="2.8963518" />
     <path
        style="fill:#000000;stroke-width:0.140686"
-       d="m 506.85415,519.47413 c -1.06213,-0.52845 -1.95515,-1.37131 -2.56939,-2.42481 l -0.94133,-1.61475 v -39.68416 c 0,-43.51124 -0.14554,-40.78525 2.282,-42.83833 1.66871,-1.41148 3.40258,-1.77761 8.42947,-1.78003 l 4.43084,-10e-4 0.14286,-2.85033 c 0.15373,-3.06848 0.87084,-4.55175 2.64114,-5.46641 1.30334,-0.67329 24.50676,-0.67329 25.81,0 1.77035,0.91466 2.4871,2.39793 2.64123,5.46641 l 0.14324,2.85033 4.43089,10e-4 c 5.02675,0.002 6.7607,0.36867 8.42933,1.78003 2.42719,2.05308 2.28203,-0.67295 2.28203,42.83829 v 39.6842 l -0.94625,1.62313 c -0.63092,1.0822 -1.49537,1.89029 -2.59434,2.42511 -1.62329,0.78993 -2.03366,0.802 -27.31611,0.80172 -25.37423,-3.4e-4 -25.68671,-0.008 -27.29599,-0.8104 z m 53.37303,-4.63143 c 0.52671,-0.75588 0.59253,-5.11186 0.59253,-39.22047 0,-37.85991 -0.008,-38.38028 -0.76117,-39.13534 -0.74597,-0.74985 -1.2688,-0.76528 -25.88339,-0.76528 -24.61462,0 -25.13743,0.0153 -25.88343,0.76528 -0.75116,0.75506 -0.76119,1.27543 -0.76119,39.13534 0,34.10861 0.0656,38.46459 0.5925,39.22047 l 0.59256,0.85046 h 25.45956 25.45949 z"
+       d="m 485.9978,457.97615 c 0.52845,-1.06213 1.37131,-1.95515 2.42481,-2.56939 l 1.61475,-0.94133 h 39.68416 c 43.51124,0 40.78525,-0.14554 42.83833,2.282 1.41148,1.66871 1.77761,3.40258 1.78003,8.42947 l 10e-4,4.43084 2.85033,0.14286 c 3.06848,0.15373 4.55175,0.87084 5.46641,2.64114 0.67329,1.30334 0.67329,24.50676 0,25.81 -0.91466,1.77035 -2.39793,2.4871 -5.46641,2.64123 l -2.85033,0.14324 -10e-4,4.43089 c -0.002,5.02675 -0.36867,6.7607 -1.78003,8.42933 -2.05308,2.42719 0.67295,2.28203 -42.83829,2.28203 h -39.6842 l -1.62313,-0.94625 c -1.0822,-0.63092 -1.89029,-1.49537 -2.42511,-2.59434 -0.78993,-1.62329 -0.802,-2.03366 -0.80172,-27.31611 3.4e-4,-25.37423 0.008,-25.68671 0.8104,-27.29599 z m 4.63143,53.37303 c 0.75588,0.52671 5.11186,0.59253 39.22047,0.59253 37.85991,0 38.38028,-0.008 39.13534,-0.76117 0.74985,-0.74597 0.76528,-1.2688 0.76528,-25.88339 0,-24.61462 -0.0153,-25.13743 -0.76528,-25.88343 -0.75506,-0.75116 -1.27543,-0.76119 -39.13534,-0.76119 -34.10861,0 -38.46459,0.0656 -39.22047,0.5925 l -0.85046,0.59256 v 25.45956 25.45949 z"
        id="path1363"
        sodipodi:nodetypes="cccscccscsscccscsssccsscscsccccs" />
-    <rect
-       style="fill:#000000;fill-opacity:0.98594;fill-rule:nonzero;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2.1;stroke-dasharray:none;paint-order:markers stroke fill"
-       id="bat_state_rect"
-       width="45.465782"
-       height="73.965736"
-       x="511.44205"
-       y="438.94702"
-       ry="2.8357468" />
-    <path
-       style="fill:#ffffff;fill-opacity:0.76;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 539.8459,452.91837 -19.04667,24.52532 11.84152,0.18813 -4.77425,18.62255 19.68415,-24.92229 -12.52904,-0.16084 z"
-       id="path23184" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.608px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.665;stroke-dasharray:none;stroke-opacity:1"
+       x="528.52582"
+       y="492.60117"
+       id="bat_state_text"
+       transform="scale(1.0011491,0.99885221)"><tspan
+         sodipodi:role="line"
+         id="load_bat"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.608px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.665;stroke-dasharray:none;stroke-opacity:1"
+         x="528.52582"
+         y="492.60117">100%</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.0848px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-dasharray:none"
+       x="521.35498"
+       y="446.40656"
+       id="text4765-3-3-3-9"
+       transform="scale(0.99943302,1.0005673)"><tspan
+         sodipodi:role="line"
+         id="bat_energy"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.0848px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.265;stroke-dasharray:none"
+         x="523.23486"
+         y="446.40656">1.5<tspan
+   style="font-size:11px"
+   id="tspan3197"> </tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="553.88611"
+       y="446.90973"
+       id="text490"><tspan
+         sodipodi:role="line"
+         id="tspan488"
+         x="553.88611"
+         y="446.90973"
+         style="font-size:10px"> kWh</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="Solar"
-     transform="translate(-114.27388,-172.54294)"
+     transform="translate(-113.17944,-171.44852)"
      style="display:inline">
     <ellipse
        style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
@@ -278,7 +301,7 @@
      id="layer3"
      inkscape:label="Inverter"
      style="display:inline"
-     transform="translate(-114.27388,-172.54294)">
+     transform="translate(-113.17944,-171.44852)">
     <ellipse
        style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
        id="path1114"
@@ -295,7 +318,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="Home"
-     transform="translate(-114.27388,-172.54294)"
+     transform="translate(-113.17944,-171.44852)"
      style="display:inline">
     <ellipse
        style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
@@ -321,21 +344,22 @@
          x="192.55988"
          y="302.43164">1234 W</tspan></text>
   </g>
-<script type="text/javascript"><![CDATA[
+  <script
+     type="text/javascript"
+     id="script46"><![CDATA[
 
-document.SetBatteryStateOfCharge = function(value)
+document.SetBatteryStateOfCharge = function(percent, nom_capacity)
 {
-	var rect_max_height = 74.0;
-	var rect_min_y_pos = 438.0; // top left position of rect at 100%
-	
-	var height = (rect_max_height/100.0)*value;
-	var y = rect_min_y_pos + rect_max_height - height;
+	var rect_max_width = 75.0;
 
-	document.getElementById("bat_state_text").innerHTML = String(value) + " %";
-	
-	document.getElementById("bat_state_rect").setAttribute("height", height);
-	document.getElementById("bat_state_rect").setAttribute("y", y);
+	var width = (rect_max_width/100.0)*percent;
 
+	document.getElementById("bat_state_text").innerHTML = String(percent) + " %";
+
+	document.getElementById("bat_state_rect").setAttribute("width", width);
+	
+	energy = nom_capacity * percent / 100;
+	document.getElementById("bat_energy").innerHTML = String(energy.toFixed(1));
 }
 
 document.Animation = function(Power, bubble, invert, MaxPower) 

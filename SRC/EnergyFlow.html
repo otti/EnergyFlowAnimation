@@ -14,7 +14,7 @@
 <hr>
 <h1>Try it</h1>
 <br>
-<input id="slide" type="range" min="0"     max="100"   step="1"   value="0" onchange="EnergyFlow.SetBatteryStateOfCharge(this.value)"> Battery level [0 ... 100 %]<br>
+<input id="slide" type="range" min="0"     max="100"   step="1"   value="0" onchange="EnergyFlow.SetBatteryStateOfCharge(this.value, 12.3)">     Battery level [0 ... 100 %]<br>
 <input id="slide" type="range" min="0"     max="1000"  step="100" value="0" onchange="EnergyFlow.Animation(this.value, 'Home',    true,   1000)">Power Home [0 ... 1000 W]<br>
 <input id="slide" type="range" min="-1000" max="1000"  step="100" value="0" onchange="EnergyFlow.Animation(this.value, 'Battery', true,   1000)">Power Battery [-1000 ... 1000 W]<br>
 <input id="slide" type="range" min="0"     max="10000" step="100" value="0" onchange="EnergyFlow.Animation(this.value, 'Solar',   false, 10000)">Power Solar [0 ... 10000 W]<br>
