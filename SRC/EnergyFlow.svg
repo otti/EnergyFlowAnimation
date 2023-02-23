@@ -7,7 +7,7 @@
    viewBox="0 0 501.15552 401.36121"
    version="1.1"
    id="svg5"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    sodipodi:docname="EnergyFlow.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,11 +24,11 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="4.0014918"
-     inkscape:cx="375.60992"
+     inkscape:cx="375.73487"
      inkscape:cy="260.02802"
      inkscape:window-width="3840"
      inkscape:window-height="2081"
-     inkscape:window-x="2391"
+     inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer5"
@@ -133,18 +133,18 @@
      id="layer11"
      inkscape:label="BubbleBattery"
      style="display:inline"
-     transform="translate(-112.69382,-1.200007)">
+     transform="translate(-113.78826,-2.2944225)">
     <ellipse
        style="display:inline;fill:#e1e1e1;fill-opacity:1;stroke:#000000;stroke-width:0.799998;stroke-miterlimit:4;stroke-dasharray:none"
        id="path2555-3-1"
        cx="478.90842"
-       cy="296.52295"
+       cy="282.52295"
        rx="8.8634043"
        ry="8.8734646">
       <animateMotion
          id="bubble_bat_anim"
          dur="2.1s"
-         values="0,-10; -60, -60"
+         values="0,0; -60, -40"
          repeatCount="indefinite" />
     </ellipse>
   </g>
@@ -230,14 +230,14 @@
        sodipodi:nodetypes="cccscccscsscccscsssccsscscsccccs" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.608px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.665;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.608px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.665;stroke-dasharray:none;stroke-opacity:1"
        x="528.52582"
        y="492.60117"
        id="bat_state_text"
        transform="scale(1.0011491,0.99885221)"><tspan
          sodipodi:role="line"
          id="load_bat"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.608px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.665;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.608px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.665;stroke-dasharray:none;stroke-opacity:1"
          x="528.52582"
          y="492.60117">100%</tspan></text>
     <text
@@ -256,7 +256,7 @@
    id="tspan3197"> </tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="553.88611"
        y="446.90973"
        id="text490"><tspan
@@ -264,7 +264,7 @@
          id="tspan488"
          x="553.88611"
          y="446.90973"
-         style="font-size:10px"> kWh</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">kWh</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
